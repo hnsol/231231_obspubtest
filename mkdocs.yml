@@ -2,6 +2,7 @@ site_name: obsidian-mkdocs template
 
 theme:
     name: 'material'
+    language: "ja"
     palette:
 
     # Light mode
@@ -49,7 +50,9 @@ markdown_extensions:
       permalink: true
 
 plugins:
-  - search
+  - search:
+      lang:
+        - en
   - roamlinks
   - blog
   - rss:
